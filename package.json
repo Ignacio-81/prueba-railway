@@ -1,11 +1,11 @@
 {
-    "name": "entrega14",
+    "name": "entrega15",
     "version": "1.0.0",
     "description": "",
     "type": "module",
     "main": "server.js",
     "scripts": {
-        "start": "./src/server.js"
+        "start": "node ./src/server.js"
     },
     "keywords": [],
     "author": "",
