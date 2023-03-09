@@ -1,0 +1,52 @@
+2023/02/21 08:38:57 [error] 2020#9988: *1 CreateFile() "D:\Personal\CoderHouse\Node.Js\Trabajos\Repo\nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/02/21 08:41:11 [notice] 17420#19896: signal process started
+2023/02/21 08:54:33 [notice] 16720#19132: signal process started
+2023/02/21 08:58:54 [error] 16288#20420: *4 CreateFile() "D:\Personal\CoderHouse\Node.Js\Trabajos\Repo\nginx/html/info" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /info HTTP/1.1", host: "localhost"
+2023/02/21 09:02:56 [error] 16288#20420: *7 CreateFile() "D:\Personal\CoderHouse\Node.Js\Trabajos\Repo\nginx/html/Info" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /Info HTTP/1.1", host: "localhost"
+2023/02/21 09:03:10 [notice] 16056#8032: signal process started
+2023/02/21 09:08:16 [notice] 11500#13348: signal process started
+2023/02/21 09:15:09 [notice] 16892#596: signal process started
+2023/02/21 09:17:14 [notice] 12268#10284: signal process started
+2023/02/21 09:19:54 [error] 16288#20420: *15 CreateFile() "D:\Personal\CoderHouse\Node.Js\Trabajos\Repo\nginx/html/info" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /info HTTP/1.1", host: "localhost"
+2023/02/21 09:21:16 [notice] 2952#20012: signal process started
+2023/02/21 09:26:35 [notice] 6760#18988: signal process started
+2023/02/21 09:28:24 [notice] 14508#18884: signal process started
+2023/02/21 09:35:53 [notice] 16008#3832: signal process started
+2023/02/21 09:37:07 [emerg] 15516#3988: CreateFile() "D:/path/to/nginx.conf" failed (3: The system cannot find the path specified)
+2023/02/21 09:38:12 [notice] 3000#4468: signal process started
+2023/02/21 09:42:23 [notice] 3300#1072: signal process started
+2023/02/21 09:43:27 [notice] 17400#7216: signal process started
+2023/02/21 09:46:02 [notice] 20228#2116: signal process started
+2023/02/21 09:47:32 [notice] 13500#19624: signal process started
+2023/02/21 09:48:03 [notice] 17948#9412: signal process started
+2023/02/21 09:48:03 [error] 17948#9412: CreateFile() "D:\Personal\CoderHouse\Node.Js\Trabajos\Repo\Entrega13\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/02/21 09:49:11 [notice] 19128#18276: signal process started
+2023/02/21 09:49:11 [error] 19128#18276: CreateFile() "D:\Personal\CoderHouse\Node.Js\Trabajos\Repo\Entrega13\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/02/21 09:49:17 [emerg] 19676#17628: CreateFile() "D:/conf/nginx.conf" failed (3: The system cannot find the path specified)
+2023/02/21 09:49:29 [notice] 12700#4588: signal process started
+2023/02/21 09:49:29 [error] 12700#4588: CreateFile() "D:\Personal\CoderHouse\Node.Js\Trabajos\Repo\Entrega13\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/02/21 09:50:40 [notice] 19256#3012: signal process started
+2023/02/21 09:50:40 [error] 19256#3012: CreateFile() "D:\Personal\CoderHouse\Node.Js\Trabajos\Repo\Entrega13\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/02/21 09:52:09 [notice] 13628#19896: signal process started
+2023/02/21 09:52:09 [error] 13628#19896: CreateFile() "D:\Personal\CoderHouse\Node.Js\Trabajos\Repo\Entrega13\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/02/21 10:11:24 [notice] 17672#17224: signal process started
+2023/02/21 10:29:28 [error] 17472#4200: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: nginx_server, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8080/", host: "localhost"
+2023/02/21 10:29:30 [error] 17472#4200: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: nginx_server, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8080/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2023/02/21 10:35:19 [notice] 17636#6180: signal process started
+2023/02/21 10:41:37 [emerg] 8348#16484: "upstream" directive is not allowed here in D:\Personal\CoderHouse\Node.Js\Trabajos\Repo\Entrega13\nginx/conf/nginx.conf:17
+2023/02/21 10:42:07 [notice] 16184#11592: signal process started
+2023/02/21 10:43:21 [error] 6756#2820: *13 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: nginx_server, request: "GET /api/randoms/ HTTP/1.1", upstream: "http://127.0.0.1:8082/api/randoms/", host: "localhost"
+2023/02/21 10:43:23 [error] 6756#2820: *13 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: nginx_server, request: "GET /api/randoms/ HTTP/1.1", upstream: "http://127.0.0.1:8083/api/randoms/", host: "localhost"
+2023/02/21 10:43:25 [error] 6756#2820: *13 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: nginx_server, request: "GET /api/randoms/ HTTP/1.1", upstream: "http://127.0.0.1:8084/api/randoms/", host: "localhost"
+2023/02/21 10:43:27 [error] 6756#2820: *13 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: nginx_server, request: "GET /api/randoms/ HTTP/1.1", upstream: "http://127.0.0.1:8085/api/randoms/", host: "localhost"
+2023/02/21 10:45:57 [error] 6756#2820: *23 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: nginx_server, request: "GET /api/randoms/ HTTP/1.1", upstream: "http://127.0.0.1:8085/api/randoms/", host: "localhost"
+2023/02/21 10:55:42 [notice] 14244#11108: signal process started
+2023/02/21 10:59:37 [error] 11340#8136: *34 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: nginx_server, request: "GET /api/randoms/ HTTP/1.1", upstream: "http://127.0.0.1:8082/api/randoms/", host: "localhost"
+2023/02/21 10:59:39 [error] 11340#8136: *34 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: nginx_server, request: "GET /api/randoms/ HTTP/1.1", upstream: "http://127.0.0.1:8083/api/randoms/", host: "localhost"
+2023/02/21 10:59:41 [error] 11340#8136: *34 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: nginx_server, request: "GET /api/randoms/ HTTP/1.1", upstream: "http://127.0.0.1:8084/api/randoms/", host: "localhost"
+2023/02/21 10:59:43 [error] 11340#8136: *34 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: nginx_server, request: "GET /api/randoms/ HTTP/1.1", upstream: "http://127.0.0.1:8085/api/randoms/", host: "localhost"
+2023/02/21 11:00:02 [error] 11340#8136: *34 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: nginx_server, request: "GET /api/randoms/ HTTP/1.1", upstream: "http://127.0.0.1:8085/api/randoms/", host: "localhost"
+2023/02/21 11:00:04 [error] 11340#8136: *34 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: nginx_server, request: "GET /api/randoms/ HTTP/1.1", upstream: "http://127.0.0.1:8084/api/randoms/", host: "localhost"
+2023/02/21 11:00:07 [error] 11340#8136: *45 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: nginx_server, request: "GET /api/randoms/ HTTP/1.1", upstream: "http://127.0.0.1:8083/api/randoms/", host: "localhost"
+2023/02/21 11:03:05 [notice] 20948#20952: signal process started
+2023/02/21 11:05:54 [notice] 15444#15128: signal process started
