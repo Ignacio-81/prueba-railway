@@ -3,8 +3,8 @@ import mongoose from "mongoose";
 
 export async function mongoConnect() {
     try {
-        const URL = "mongodb+srv://IBadella:yR6NsdkTtzIObQcF@nachocluster.ytxqvsv.mongodb.net/?retryWrites=true&w=majority"
-        let res = await mongoose.connect(URL, {
+        //const URL = "mongodb+srv://IBadella:yR6NsdkTtzIObQcF@nachocluster.ytxqvsv.mongodb.net/?retryWrites=true&w=majority"
+        let res = await mongoose.connect(process.env.MONGODB_URI, {
             useNewUrlParser: true,
             useUnifiedTopology: true
         });
