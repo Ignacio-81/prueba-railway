@@ -12,7 +12,7 @@ import router from "./routes/index.js"
 import passport from "passport";
 import { passportStrategies } from "./lib/passport.lib.js";
 import { User } from "./db/config/user.model.js"
-import { configObject, dbInit } from "./db/config/index.js";
+import { dbInit } from "./db/config/index.js";
 import invalidUrl from "./middleware/invalidUrl.middleware.js";
 import yargs from "yargs";
 import cluster from "cluster";
