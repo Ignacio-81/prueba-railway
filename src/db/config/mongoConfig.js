@@ -1,5 +1,7 @@
 import mongoose from "mongoose";
 //import { configObject } from "./index.js";
+import { config } from "dotenv";
+config();
 
 export async function mongoConnect() {
     try {

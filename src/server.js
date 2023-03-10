@@ -19,6 +19,8 @@ import cluster from "cluster";
 import os from "os";
 import urlRegister from "./middleware/logger.mdw.js"
 import { errorLogger } from "./lib/logger.lib.js"
+import { config } from "dotenv";
+config();
 
 //Define confirguration for console paramteters:
 export const args = yargs(process.argv.slice(2))
