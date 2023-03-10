@@ -52,7 +52,7 @@ app.use(
         rolling: true,
         saveUninitialized: false,
         store: new MongoStore({
-            mongoUrl: configObject.mongoUrl,
+            mongoUrl: "mongodb+srv://IBadella:yR6NsdkTtzIObQcF@nachocluster.ytxqvsv.mongodb.net/?retryWrites=true&w=majority",
             mongoOptions,
         }),
         cookie: {
