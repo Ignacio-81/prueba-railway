@@ -18,7 +18,7 @@ const createProdTable = async (table) => {
 
     } catch (err) {
         database.destroy();
-        throw new Error(`Error while creating DataBase: ${err}`)
+        throw new Error(`Error while creating SQL DataBase: ${err}`)
     }
 };
 

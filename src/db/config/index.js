@@ -22,7 +22,7 @@ export async function dbInit() {
         await mongoConnect();
     } catch (err) {
         //console.error(err)
-        throw new Error(`Error while connecting to Mongo DB ${err}`)
+        throw new Error(`Error while connecting to DB ${err}`)
     }
 }
 
