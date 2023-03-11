@@ -12,7 +12,7 @@
 }; */
 
 const config = {
-    //client: "mysql",
+    client: "mysql",
     connection: {
         host: process.env.MYSQLHOST,
         user: process.env.MYSQLUSER,
