@@ -18,6 +18,7 @@ const config = {
         user: process.env.MYSQLUSER,
         password: process.env.MYSQLPASSWORD,
         database: process.env.MYSQLDATABASE,
+        port: process.env.MYSQLPORT,
     },
     pool: { min: 0, max: 7 },
 };
