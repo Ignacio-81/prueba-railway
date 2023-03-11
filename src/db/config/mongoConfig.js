@@ -5,8 +5,8 @@ config();
 
 export async function mongoConnect() {
     try {
-        //const URL = "mongodb+srv://IBadella:yR6NsdkTtzIObQcF@nachocluster.ytxqvsv.mongodb.net/?retryWrites=true&w=majority"
-        let res = await mongoose.connect('mongodb+srv://IBadella:yR6NsdkTtzIObQcF@nachocluster.ytxqvsv.mongodb.net/?retryWrites=true&w=majority',
+        //const URL = "mongodb+srv://IBadella:yR6NsdkTtzIObQcF@nachocluster.ytxqvsv.mongodb.net/test?retryWrites=true&w=majority"
+        let res = await mongoose.connect(process.env.MONGO_URL,
             {
                 useNewUrlParser: true,
                 useUnifiedTopology: true

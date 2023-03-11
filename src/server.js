@@ -111,7 +111,7 @@ if ((cluster.isPrimary) && (args.mode === "cluster")) {
 
     app.use("/", urlRegister, router);
     app.use(invalidUrl);
-    const expressServer = app.listen(process.env.PORT, () =>
+    const expressServer = app.listen(process.env.PORT || 3000, () =>
         console.log('Server listening on port :' + process.env.PORT + ' Mode: ' + args.mode)
     );
     app.on("error", (err) => {
