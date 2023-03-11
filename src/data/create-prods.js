@@ -37,7 +37,7 @@ const insertProds = async () => {
 
     } catch (err) {
         database.destroy();
-        throw new Error(`Error while creating Products in DataBase: ${err}`)
+        throw new Error(`Error while creating Products in SQL DataBase: ${err}`)
     }
 };
 
